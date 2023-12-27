@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .box {
+        border: solid 2px wheat;
+    }
+
+    #box1-1 {
+        grid-column: span 4;
+    }
+
+    #box1-2 {
+        grid-column: span 2;
+    }
+
+    #box1-3 {
+        grid-row: span 4;
+        grid-column: span 2;
+    }
+
+    #box1-5 {
+        grid-column: span 4;
+    }
+
+    #box1-7 {
+        grid-column: span 3;
+    }
+
+    #box1-8 {
+        grid-column: span 3;
+    }
+
+    #box1-9 {
+        grid-column: span 2;
+    }
+
+    #box1-10 {
+        grid-column: span 2;
+    }
+
+    #box1-11 {
+        grid-column: span 2;
+    }
+
+    img {
+        height: 140px;
+        width: 100%;
+         background-size: cover;
+         background-size: contain;
+         background-repeat: no-repeat;
+       
+    }
+
+    #box1-3 {
+        color: white;
+
+    }
+
+   .text{
+    color: red;
+   }
+
+    .text0 {
+        float: right;
+       
+        position: absolute;
+        right: 20px;
+
+    }
+   
+    
+</style>
+
+<body>
+    <div class="parent">
+        <div class="box" id="box1-1">
+            <img src="1 (1).jpg" alt="">
+        </div>
+        <div class="box" id="box1-2">
+            <img src="1 (3).jpg" alt="">
+        </div>
+        <div class="box" id="box1-3">
+            <div class="text0">
+                <h3>SHUTTER</h3><br><br>
+                <P class="text">HOME</P><br>
+                <p>PHOTOS</p><br>
+                <p>BIO</p><br>
+                <p>BLOG</p><br>
+                <p>CONTACT</p>
+                <div class="icone">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="box1-4">
+            <img src="1 (4).jpg" alt="">
+        </div>
+        <div class="box" id="box1-5">
+            <img src="1 (5).jpg" alt="">
+        </div>
+        <div class="box" id="box1-6">
+            <img src="1 (6).jpg" alt="">
+        </div>
+        <div class="box" id="box1-7">
+            <img src="1 (7).jpg" alt="">
+        </div>
+        <div class="box" id="box1-8">
+            <img src="1 (8).jpg" alt="">
+        </div>
+        <div class="box" id="box1-9">
+            <img src="1 (9).jpg" alt="">
+        </div>
+        <div class="box" id="box1-10">
+            <img src="1 (10).jpg" alt="">
+        </div>
+        <div class="box" id="box1-11">
+            <img src="1 (11).jpg" alt="">
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
